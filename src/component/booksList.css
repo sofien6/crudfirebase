@@ -1,0 +1,16 @@
+.booklistParent{
+   width: 70%;
+   margin: 0 auto;
+   position: relative;
+   top: 200px;
+}
+
+@media screen and (max-width:600px) {
+   .booklistParent{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      top: 200px;
+   }
+   
+}

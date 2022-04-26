@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { Col, Row } from 'react-bootstrap';
 import './App.css';
+import AddBooks from './component/addBooks';
+import BooksList from './component/booksList';
+import NavBar from './component/navBar';
+import BookDataSerices from './services/books.services';
 
 function App() {
+
+  const [id, setid] = useState("");
+
+  const bookEdite = (id) => {
+       setid(id)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Row>
+          <Col>
+            <NavBar/>   
+          </Col>
+      </Row>
+      <Row>
+          <Col>
+            <AddBooks
+            editedBook = {id}
+            setEditedBook = {setid}
+            />   
+          </Col>
+      </Row>
+      <Row>
+          <Col>
+              <BooksList 
+              onEdit = {bookEdite}
+              />
+          </Col>
+      </Row>
     </div>
   );
 }
