@@ -5,9 +5,7 @@ import AddBooks from './component/addBooks';
 import BooksList from './component/booksList';
 import NavBar from './component/navBar';
 import BookDataSerices from './services/books.services';
-
 function App() {
-
   const [id, setid] = useState("");
 
   const bookEdite = (id) => {
