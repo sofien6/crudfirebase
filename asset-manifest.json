@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crudfirebase/static/css/main.a6403061.css",
+    "main.js": "/crudfirebase/static/js/main.9a9d8e67.js",
+    "index.html": "/crudfirebase/index.html",
+    "main.a6403061.css.map": "/crudfirebase/static/css/main.a6403061.css.map",
+    "main.9a9d8e67.js.map": "/crudfirebase/static/js/main.9a9d8e67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6403061.css",
+    "static/js/main.9a9d8e67.js"
+  ]
+}
