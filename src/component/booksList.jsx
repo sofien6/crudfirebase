@@ -29,7 +29,7 @@ const BooksList = ({onEdit,setEditedBook}) => {
   return (
     <div className='booklistParent'>
 
-      <Button variant='secondary' onClick={()=> getBooks()} > Refresh list </Button>
+      <Button variant='secondary' className='refresh' onClick={()=> getBooks()} > Refresh list </Button>
 
      { /* <pre>
        {JSON.stringify(allBooks,undefined,2)}
