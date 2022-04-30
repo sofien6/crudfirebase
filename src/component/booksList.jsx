@@ -31,9 +31,9 @@ const BooksList = ({onEdit,setEditedBook}) => {
 
       <Button variant='secondary' className='refresh' onClick={()=> getBooks()} > Refresh list </Button>
 
-     { /* <pre>
+   <pre>
        {JSON.stringify(allBooks,undefined,2)}
-  </pre> */ }
+  </pre> 
 
         <Table className='myTab' striped bordered hover>
   <thead>
