@@ -1,0 +1,85 @@
+*{
+    border: 1px solid red;
+}
+.qrcode_title{
+    width: 100%;
+    background-color: #1e1e1fd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.qrcode_title p {
+    font-size: 30px;
+    color: white;
+    position: relative;
+}
+.qr_field{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(46, 44, 44);
+    top: 20px;
+    padding: 20px;
+    height: 400px;
+}
+.qrcode_result_image{
+    padding: 10px;
+    position: relative;
+    height: 400px ; 
+    background-color: rgb(65, 63, 63);
+}
+.qrcode_result_image p{
+    color: white;
+    text-align: center;
+    font-size: 30px; 
+}
+.qrcode_result_image img{
+    width: 200px;
+}
+.result_button_download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.image_decoration_result{
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    display:flex;
+}
+
+/*******************************************************************************/
+
+.qrcode_scan_image{
+    width: 100%;
+    background-color: rgb(75, 72, 72);
+    position: relative;
+    top: 30px;
+}
+
+.qrcode_scan_image p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.button_scan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scanedImage{
+    position: relative;
+    top: 10px;
+    padding: 20px;
+}
+.scanedImage p{
+    position: relative;
+    top: 10px;
+    color: rgb(255, 255, 255);
+}

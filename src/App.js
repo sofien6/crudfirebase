@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './component/login/login'
 import './App.css';
 import Home from './component/home/Home'
+import QrCode from './component/QrCode/QrCode';
 function App() {
  
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route   exact  path="/" element={<Home />} />
           <Route exact path="/Login" element={<Login />} />
           <Route exact path="/Books" element={<BookProject />} />
+          <Route exact path="/QrCode" element={<QrCode />} />
       </Routes>
     </BrowserRouter>
         </Col>

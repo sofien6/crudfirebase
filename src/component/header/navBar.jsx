@@ -12,6 +12,8 @@ const NavBar = () => {
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/Books">Books</Nav.Link>
       <Nav.Link href="/Login">Login</Nav.Link>
+      <Nav.Link href="/QrCode">QrCode</Nav.Link>
+
     </Nav>
     </Container>
   </Navbar>
