@@ -92,7 +92,7 @@ const QrCode = () => {
                   onError = {handleErorr}
                   legacyMode
                  />
-                 <p> result of scanned file : </p> 
+                 <p> result</p> 
                 </div>
                 <p className='theResultOfSCAN'>  {scanFile} </p>
 
