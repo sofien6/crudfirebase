@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/crudfirebase/static/css/main.a6403061.css",
-    "main.js": "/crudfirebase/static/js/main.9a9d8e67.js",
+    "main.css": "/crudfirebase/static/css/main.f073ccc5.css",
+    "main.js": "/crudfirebase/static/js/main.5c4a1747.js",
+    "static/media/Dzbrain.mp4": "/crudfirebase/static/media/Dzbrain.ef968630dbd8b2ffac12.mp4",
     "index.html": "/crudfirebase/index.html",
-    "main.a6403061.css.map": "/crudfirebase/static/css/main.a6403061.css.map",
-    "main.9a9d8e67.js.map": "/crudfirebase/static/js/main.9a9d8e67.js.map"
+    "main.f073ccc5.css.map": "/crudfirebase/static/css/main.f073ccc5.css.map",
+    "main.5c4a1747.js.map": "/crudfirebase/static/js/main.5c4a1747.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6403061.css",
-    "static/js/main.9a9d8e67.js"
+    "static/css/main.f073ccc5.css",
+    "static/js/main.5c4a1747.js"
   ]
 }
