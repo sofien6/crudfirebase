@@ -1,8 +1,10 @@
 import React from 'react'
-import {Nav,Navbar,Container} from 'react-bootstrap'
+import {Nav,Navbar,Container,Alert} from 'react-bootstrap'
 const NavBar = () => {
+  const variant = 'danger'
   return (
     <div style={{width:"100%"}} className='navBarParent'>
+     
   <Navbar style={{backgroundColor:'#333333'}} variant="dark">
     <Container>
     <Navbar.Brand href="/">DzBrain</Navbar.Brand>
@@ -13,6 +15,10 @@ const NavBar = () => {
     </Nav>
     </Container>
   </Navbar>
+  <Alert key={variant} variant={variant}>
+      This is a Demo version for Smatphones , 
+      so its not responsive appliaction for computers (Laptop)
+    </Alert>
     </div>
   )
 }
