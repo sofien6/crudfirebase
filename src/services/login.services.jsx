@@ -10,6 +10,7 @@ class LoginDataServices {
 
     updateusers = (id,updatedusers) => {
         const validateuser = doc(db,'users',id); 
+        console.log(validateuser)
         return updateDoc(validateuser,updatedusers)
     }
 
