@@ -11,6 +11,8 @@ class BookDataSerices {
 
     updateBooks = (id,updatedBooks) => {
         const validateBook = doc(db,'books',id); 
+                console.log(validateBook)
+
         return updateDoc(validateBook,updatedBooks)
     }
 
